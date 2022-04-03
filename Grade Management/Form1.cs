@@ -16,5 +16,10 @@ namespace Grade_Management
         {
             InitializeComponent();
         }
+
+        private void InfoInput_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
