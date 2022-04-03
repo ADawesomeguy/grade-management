@@ -53,26 +53,42 @@
             this.lblA4Name = new System.Windows.Forms.Label();
             this.txtA4Name = new System.Windows.Forms.TextBox();
             this.A4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbB4Level = new System.Windows.Forms.ComboBox();
+            this.lblB4Level = new System.Windows.Forms.Label();
+            this.lblB4Name = new System.Windows.Forms.Label();
+            this.txtB4Name = new System.Windows.Forms.TextBox();
             this.B4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtB3Level = new System.Windows.Forms.ComboBox();
+            this.lblB3Level = new System.Windows.Forms.Label();
+            this.lblB3Name = new System.Windows.Forms.Label();
+            this.txtB3Name = new System.Windows.Forms.TextBox();
             this.B3 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cbB2Level = new System.Windows.Forms.ComboBox();
+            this.lblB2Level = new System.Windows.Forms.Label();
+            this.lblB2Name = new System.Windows.Forms.Label();
+            this.txtB2Name = new System.Windows.Forms.TextBox();
             this.B2 = new System.Windows.Forms.Label();
             this.cbB1Level = new System.Windows.Forms.ComboBox();
             this.lblB1Level = new System.Windows.Forms.Label();
             this.lblB1Name = new System.Windows.Forms.Label();
             this.txtB1Name = new System.Windows.Forms.TextBox();
             this.B1 = new System.Windows.Forms.Label();
+            this.lblA1Grade = new System.Windows.Forms.Label();
+            this.lblA2Grade = new System.Windows.Forms.Label();
+            this.lblA3Grade = new System.Windows.Forms.Label();
+            this.lblA4Grade = new System.Windows.Forms.Label();
+            this.lblB1Grade = new System.Windows.Forms.Label();
+            this.lblB2Grade = new System.Windows.Forms.Label();
+            this.lblB3Grade = new System.Windows.Forms.Label();
+            this.lblB4Grade = new System.Windows.Forms.Label();
+            this.txtA1Grade = new System.Windows.Forms.TextBox();
+            this.txtA2Grade = new System.Windows.Forms.TextBox();
+            this.txtA3Grade = new System.Windows.Forms.TextBox();
+            this.txtA4Grade = new System.Windows.Forms.TextBox();
+            this.txtB1Grade = new System.Windows.Forms.TextBox();
+            this.txtB2Grade = new System.Windows.Forms.TextBox();
+            this.txtB3Grade = new System.Windows.Forms.TextBox();
+            this.txtB4Grade = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // SchoolLabel
@@ -151,7 +167,7 @@
             // lblA1Level
             // 
             this.lblA1Level.AutoSize = true;
-            this.lblA1Level.Location = new System.Drawing.Point(581, 95);
+            this.lblA1Level.Location = new System.Drawing.Point(541, 95);
             this.lblA1Level.Name = "lblA1Level";
             this.lblA1Level.Size = new System.Drawing.Size(50, 20);
             this.lblA1Level.TabIndex = 8;
@@ -167,7 +183,7 @@
             "A",
             "B",
             "C/Foundations"});
-            this.cbA1Level.Location = new System.Drawing.Point(637, 92);
+            this.cbA1Level.Location = new System.Drawing.Point(597, 92);
             this.cbA1Level.Name = "cbA1Level";
             this.cbA1Level.Size = new System.Drawing.Size(144, 28);
             this.cbA1Level.TabIndex = 9;
@@ -182,7 +198,7 @@
             "A",
             "B",
             "C/Foundations"});
-            this.cbA2Level.Location = new System.Drawing.Point(637, 129);
+            this.cbA2Level.Location = new System.Drawing.Point(597, 129);
             this.cbA2Level.Name = "cbA2Level";
             this.cbA2Level.Size = new System.Drawing.Size(144, 28);
             this.cbA2Level.TabIndex = 14;
@@ -190,7 +206,7 @@
             // lblA2Level
             // 
             this.lblA2Level.AutoSize = true;
-            this.lblA2Level.Location = new System.Drawing.Point(581, 132);
+            this.lblA2Level.Location = new System.Drawing.Point(541, 132);
             this.lblA2Level.Name = "lblA2Level";
             this.lblA2Level.Size = new System.Drawing.Size(50, 20);
             this.lblA2Level.TabIndex = 13;
@@ -231,7 +247,7 @@
             "A",
             "B",
             "C/Foundations"});
-            this.cbA3Level.Location = new System.Drawing.Point(637, 166);
+            this.cbA3Level.Location = new System.Drawing.Point(597, 166);
             this.cbA3Level.Name = "cbA3Level";
             this.cbA3Level.Size = new System.Drawing.Size(144, 28);
             this.cbA3Level.TabIndex = 19;
@@ -239,7 +255,7 @@
             // lblA3Level
             // 
             this.lblA3Level.AutoSize = true;
-            this.lblA3Level.Location = new System.Drawing.Point(581, 169);
+            this.lblA3Level.Location = new System.Drawing.Point(541, 169);
             this.lblA3Level.Name = "lblA3Level";
             this.lblA3Level.Size = new System.Drawing.Size(50, 20);
             this.lblA3Level.TabIndex = 18;
@@ -280,7 +296,7 @@
             "A",
             "B",
             "C/Foundations"});
-            this.cbA4Level.Location = new System.Drawing.Point(637, 203);
+            this.cbA4Level.Location = new System.Drawing.Point(597, 203);
             this.cbA4Level.Name = "cbA4Level";
             this.cbA4Level.Size = new System.Drawing.Size(144, 28);
             this.cbA4Level.TabIndex = 24;
@@ -288,7 +304,7 @@
             // lblA4Level
             // 
             this.lblA4Level.AutoSize = true;
-            this.lblA4Level.Location = new System.Drawing.Point(581, 206);
+            this.lblA4Level.Location = new System.Drawing.Point(541, 206);
             this.lblA4Level.Name = "lblA4Level";
             this.lblA4Level.Size = new System.Drawing.Size(50, 20);
             this.lblA4Level.TabIndex = 23;
@@ -319,45 +335,45 @@
             this.A4.TabIndex = 20;
             this.A4.Text = "A4:";
             // 
-            // comboBox1
+            // cbB4Level
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbB4Level.FormattingEnabled = true;
+            this.cbB4Level.Items.AddRange(new object[] {
             "Unleveled",
             "AP/ECE",
             "H",
             "A",
             "B",
             "C/Foundations"});
-            this.comboBox1.Location = new System.Drawing.Point(637, 371);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(144, 28);
-            this.comboBox1.TabIndex = 44;
+            this.cbB4Level.Location = new System.Drawing.Point(597, 371);
+            this.cbB4Level.Name = "cbB4Level";
+            this.cbB4Level.Size = new System.Drawing.Size(144, 28);
+            this.cbB4Level.TabIndex = 44;
             // 
-            // label1
+            // lblB4Level
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(581, 374);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 20);
-            this.label1.TabIndex = 43;
-            this.label1.Text = "Level:";
+            this.lblB4Level.AutoSize = true;
+            this.lblB4Level.Location = new System.Drawing.Point(541, 374);
+            this.lblB4Level.Name = "lblB4Level";
+            this.lblB4Level.Size = new System.Drawing.Size(50, 20);
+            this.lblB4Level.TabIndex = 43;
+            this.lblB4Level.Text = "Level:";
             // 
-            // label2
+            // lblB4Name
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(115, 375);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 20);
-            this.label2.TabIndex = 42;
-            this.label2.Text = "Course Name:";
+            this.lblB4Name.AutoSize = true;
+            this.lblB4Name.Location = new System.Drawing.Point(115, 375);
+            this.lblB4Name.Name = "lblB4Name";
+            this.lblB4Name.Size = new System.Drawing.Size(110, 20);
+            this.lblB4Name.TabIndex = 42;
+            this.lblB4Name.Text = "Course Name:";
             // 
-            // textBox1
+            // txtB4Name
             // 
-            this.textBox1.Location = new System.Drawing.Point(231, 371);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(293, 26);
-            this.textBox1.TabIndex = 41;
+            this.txtB4Name.Location = new System.Drawing.Point(231, 371);
+            this.txtB4Name.Name = "txtB4Name";
+            this.txtB4Name.Size = new System.Drawing.Size(293, 26);
+            this.txtB4Name.TabIndex = 41;
             // 
             // B4
             // 
@@ -368,45 +384,45 @@
             this.B4.TabIndex = 40;
             this.B4.Text = "B4:";
             // 
-            // comboBox2
+            // txtB3Level
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.txtB3Level.FormattingEnabled = true;
+            this.txtB3Level.Items.AddRange(new object[] {
             "Unleveled",
             "AP/ECE",
             "H",
             "A",
             "B",
             "C/Foundations"});
-            this.comboBox2.Location = new System.Drawing.Point(637, 334);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(144, 28);
-            this.comboBox2.TabIndex = 39;
+            this.txtB3Level.Location = new System.Drawing.Point(597, 334);
+            this.txtB3Level.Name = "txtB3Level";
+            this.txtB3Level.Size = new System.Drawing.Size(144, 28);
+            this.txtB3Level.TabIndex = 39;
             // 
-            // label4
+            // lblB3Level
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(581, 337);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
-            this.label4.TabIndex = 38;
-            this.label4.Text = "Level:";
+            this.lblB3Level.AutoSize = true;
+            this.lblB3Level.Location = new System.Drawing.Point(541, 337);
+            this.lblB3Level.Name = "lblB3Level";
+            this.lblB3Level.Size = new System.Drawing.Size(50, 20);
+            this.lblB3Level.TabIndex = 38;
+            this.lblB3Level.Text = "Level:";
             // 
-            // label5
+            // lblB3Name
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(115, 337);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(110, 20);
-            this.label5.TabIndex = 37;
-            this.label5.Text = "Course Name:";
+            this.lblB3Name.AutoSize = true;
+            this.lblB3Name.Location = new System.Drawing.Point(115, 337);
+            this.lblB3Name.Name = "lblB3Name";
+            this.lblB3Name.Size = new System.Drawing.Size(110, 20);
+            this.lblB3Name.TabIndex = 37;
+            this.lblB3Name.Text = "Course Name:";
             // 
-            // textBox2
+            // txtB3Name
             // 
-            this.textBox2.Location = new System.Drawing.Point(231, 334);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(293, 26);
-            this.textBox2.TabIndex = 36;
+            this.txtB3Name.Location = new System.Drawing.Point(231, 334);
+            this.txtB3Name.Name = "txtB3Name";
+            this.txtB3Name.Size = new System.Drawing.Size(293, 26);
+            this.txtB3Name.TabIndex = 36;
             // 
             // B3
             // 
@@ -417,45 +433,45 @@
             this.B3.TabIndex = 35;
             this.B3.Text = "B3:";
             // 
-            // comboBox3
+            // cbB2Level
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cbB2Level.FormattingEnabled = true;
+            this.cbB2Level.Items.AddRange(new object[] {
             "Unleveled",
             "AP/ECE",
             "H",
             "A",
             "B",
             "C/Foundations"});
-            this.comboBox3.Location = new System.Drawing.Point(637, 297);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(144, 28);
-            this.comboBox3.TabIndex = 34;
+            this.cbB2Level.Location = new System.Drawing.Point(597, 297);
+            this.cbB2Level.Name = "cbB2Level";
+            this.cbB2Level.Size = new System.Drawing.Size(144, 28);
+            this.cbB2Level.TabIndex = 34;
             // 
-            // label7
+            // lblB2Level
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(581, 300);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 20);
-            this.label7.TabIndex = 33;
-            this.label7.Text = "Level:";
+            this.lblB2Level.AutoSize = true;
+            this.lblB2Level.Location = new System.Drawing.Point(541, 300);
+            this.lblB2Level.Name = "lblB2Level";
+            this.lblB2Level.Size = new System.Drawing.Size(50, 20);
+            this.lblB2Level.TabIndex = 33;
+            this.lblB2Level.Text = "Level:";
             // 
-            // label8
+            // lblB2Name
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(115, 300);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(110, 20);
-            this.label8.TabIndex = 32;
-            this.label8.Text = "Course Name:";
+            this.lblB2Name.AutoSize = true;
+            this.lblB2Name.Location = new System.Drawing.Point(115, 300);
+            this.lblB2Name.Name = "lblB2Name";
+            this.lblB2Name.Size = new System.Drawing.Size(110, 20);
+            this.lblB2Name.TabIndex = 32;
+            this.lblB2Name.Text = "Course Name:";
             // 
-            // textBox3
+            // txtB2Name
             // 
-            this.textBox3.Location = new System.Drawing.Point(231, 297);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(293, 26);
-            this.textBox3.TabIndex = 31;
+            this.txtB2Name.Location = new System.Drawing.Point(231, 297);
+            this.txtB2Name.Name = "txtB2Name";
+            this.txtB2Name.Size = new System.Drawing.Size(293, 26);
+            this.txtB2Name.TabIndex = 31;
             // 
             // B2
             // 
@@ -476,7 +492,7 @@
             "A",
             "B",
             "C/Foundations"});
-            this.cbB1Level.Location = new System.Drawing.Point(637, 260);
+            this.cbB1Level.Location = new System.Drawing.Point(597, 260);
             this.cbB1Level.Name = "cbB1Level";
             this.cbB1Level.Size = new System.Drawing.Size(144, 28);
             this.cbB1Level.TabIndex = 29;
@@ -484,7 +500,7 @@
             // lblB1Level
             // 
             this.lblB1Level.AutoSize = true;
-            this.lblB1Level.Location = new System.Drawing.Point(581, 263);
+            this.lblB1Level.Location = new System.Drawing.Point(541, 263);
             this.lblB1Level.Name = "lblB1Level";
             this.lblB1Level.Size = new System.Drawing.Size(50, 20);
             this.lblB1Level.TabIndex = 28;
@@ -515,25 +531,169 @@
             this.B1.TabIndex = 25;
             this.B1.Text = "B1:";
             // 
+            // lblA1Grade
+            // 
+            this.lblA1Grade.AutoSize = true;
+            this.lblA1Grade.Location = new System.Drawing.Point(769, 95);
+            this.lblA1Grade.Name = "lblA1Grade";
+            this.lblA1Grade.Size = new System.Drawing.Size(86, 20);
+            this.lblA1Grade.TabIndex = 45;
+            this.lblA1Grade.Text = "Grade (%):";
+            // 
+            // lblA2Grade
+            // 
+            this.lblA2Grade.AutoSize = true;
+            this.lblA2Grade.Location = new System.Drawing.Point(769, 132);
+            this.lblA2Grade.Name = "lblA2Grade";
+            this.lblA2Grade.Size = new System.Drawing.Size(86, 20);
+            this.lblA2Grade.TabIndex = 46;
+            this.lblA2Grade.Text = "Grade (%):";
+            // 
+            // lblA3Grade
+            // 
+            this.lblA3Grade.AutoSize = true;
+            this.lblA3Grade.Location = new System.Drawing.Point(769, 169);
+            this.lblA3Grade.Name = "lblA3Grade";
+            this.lblA3Grade.Size = new System.Drawing.Size(86, 20);
+            this.lblA3Grade.TabIndex = 47;
+            this.lblA3Grade.Text = "Grade (%):";
+            // 
+            // lblA4Grade
+            // 
+            this.lblA4Grade.AutoSize = true;
+            this.lblA4Grade.Location = new System.Drawing.Point(769, 207);
+            this.lblA4Grade.Name = "lblA4Grade";
+            this.lblA4Grade.Size = new System.Drawing.Size(86, 20);
+            this.lblA4Grade.TabIndex = 48;
+            this.lblA4Grade.Text = "Grade (%):";
+            // 
+            // lblB1Grade
+            // 
+            this.lblB1Grade.AutoSize = true;
+            this.lblB1Grade.Location = new System.Drawing.Point(769, 263);
+            this.lblB1Grade.Name = "lblB1Grade";
+            this.lblB1Grade.Size = new System.Drawing.Size(86, 20);
+            this.lblB1Grade.TabIndex = 49;
+            this.lblB1Grade.Text = "Grade (%):";
+            // 
+            // lblB2Grade
+            // 
+            this.lblB2Grade.AutoSize = true;
+            this.lblB2Grade.Location = new System.Drawing.Point(769, 300);
+            this.lblB2Grade.Name = "lblB2Grade";
+            this.lblB2Grade.Size = new System.Drawing.Size(86, 20);
+            this.lblB2Grade.TabIndex = 50;
+            this.lblB2Grade.Text = "Grade (%):";
+            // 
+            // lblB3Grade
+            // 
+            this.lblB3Grade.AutoSize = true;
+            this.lblB3Grade.Location = new System.Drawing.Point(769, 337);
+            this.lblB3Grade.Name = "lblB3Grade";
+            this.lblB3Grade.Size = new System.Drawing.Size(86, 20);
+            this.lblB3Grade.TabIndex = 51;
+            this.lblB3Grade.Text = "Grade (%):";
+            // 
+            // lblB4Grade
+            // 
+            this.lblB4Grade.AutoSize = true;
+            this.lblB4Grade.Location = new System.Drawing.Point(769, 375);
+            this.lblB4Grade.Name = "lblB4Grade";
+            this.lblB4Grade.Size = new System.Drawing.Size(86, 20);
+            this.lblB4Grade.TabIndex = 52;
+            this.lblB4Grade.Text = "Grade (%):";
+            // 
+            // txtA1Grade
+            // 
+            this.txtA1Grade.Location = new System.Drawing.Point(861, 92);
+            this.txtA1Grade.Name = "txtA1Grade";
+            this.txtA1Grade.Size = new System.Drawing.Size(100, 26);
+            this.txtA1Grade.TabIndex = 53;
+            // 
+            // txtA2Grade
+            // 
+            this.txtA2Grade.Location = new System.Drawing.Point(861, 129);
+            this.txtA2Grade.Name = "txtA2Grade";
+            this.txtA2Grade.Size = new System.Drawing.Size(100, 26);
+            this.txtA2Grade.TabIndex = 54;
+            // 
+            // txtA3Grade
+            // 
+            this.txtA3Grade.Location = new System.Drawing.Point(861, 166);
+            this.txtA3Grade.Name = "txtA3Grade";
+            this.txtA3Grade.Size = new System.Drawing.Size(100, 26);
+            this.txtA3Grade.TabIndex = 55;
+            // 
+            // txtA4Grade
+            // 
+            this.txtA4Grade.Location = new System.Drawing.Point(861, 203);
+            this.txtA4Grade.Name = "txtA4Grade";
+            this.txtA4Grade.Size = new System.Drawing.Size(100, 26);
+            this.txtA4Grade.TabIndex = 56;
+            // 
+            // txtB1Grade
+            // 
+            this.txtB1Grade.Location = new System.Drawing.Point(861, 260);
+            this.txtB1Grade.Name = "txtB1Grade";
+            this.txtB1Grade.Size = new System.Drawing.Size(100, 26);
+            this.txtB1Grade.TabIndex = 57;
+            // 
+            // txtB2Grade
+            // 
+            this.txtB2Grade.Location = new System.Drawing.Point(861, 297);
+            this.txtB2Grade.Name = "txtB2Grade";
+            this.txtB2Grade.Size = new System.Drawing.Size(100, 26);
+            this.txtB2Grade.TabIndex = 58;
+            // 
+            // txtB3Grade
+            // 
+            this.txtB3Grade.Location = new System.Drawing.Point(861, 334);
+            this.txtB3Grade.Name = "txtB3Grade";
+            this.txtB3Grade.Size = new System.Drawing.Size(100, 26);
+            this.txtB3Grade.TabIndex = 59;
+            // 
+            // txtB4Grade
+            // 
+            this.txtB4Grade.Location = new System.Drawing.Point(861, 372);
+            this.txtB4Grade.Name = "txtB4Grade";
+            this.txtB4Grade.Size = new System.Drawing.Size(100, 26);
+            this.txtB4Grade.TabIndex = 60;
+            // 
             // InfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1019, 495);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtB4Grade);
+            this.Controls.Add(this.txtB3Grade);
+            this.Controls.Add(this.txtB2Grade);
+            this.Controls.Add(this.txtB1Grade);
+            this.Controls.Add(this.txtA4Grade);
+            this.Controls.Add(this.txtA3Grade);
+            this.Controls.Add(this.txtA2Grade);
+            this.Controls.Add(this.txtA1Grade);
+            this.Controls.Add(this.lblB4Grade);
+            this.Controls.Add(this.lblB3Grade);
+            this.Controls.Add(this.lblB2Grade);
+            this.Controls.Add(this.lblB1Grade);
+            this.Controls.Add(this.lblA4Grade);
+            this.Controls.Add(this.lblA3Grade);
+            this.Controls.Add(this.lblA2Grade);
+            this.Controls.Add(this.lblA1Grade);
+            this.Controls.Add(this.cbB4Level);
+            this.Controls.Add(this.lblB4Level);
+            this.Controls.Add(this.lblB4Name);
+            this.Controls.Add(this.txtB4Name);
             this.Controls.Add(this.B4);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtB3Level);
+            this.Controls.Add(this.lblB3Level);
+            this.Controls.Add(this.lblB3Name);
+            this.Controls.Add(this.txtB3Name);
             this.Controls.Add(this.B3);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.cbB2Level);
+            this.Controls.Add(this.lblB2Level);
+            this.Controls.Add(this.lblB2Name);
+            this.Controls.Add(this.txtB2Name);
             this.Controls.Add(this.B2);
             this.Controls.Add(this.cbB1Level);
             this.Controls.Add(this.lblB1Level);
@@ -600,25 +760,41 @@
         private System.Windows.Forms.Label lblA4Name;
         private System.Windows.Forms.TextBox txtA4Name;
         private System.Windows.Forms.Label A4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbB4Level;
+        private System.Windows.Forms.Label lblB4Level;
+        private System.Windows.Forms.Label lblB4Name;
+        private System.Windows.Forms.TextBox txtB4Name;
         private System.Windows.Forms.Label B4;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox txtB3Level;
+        private System.Windows.Forms.Label lblB3Level;
+        private System.Windows.Forms.Label lblB3Name;
+        private System.Windows.Forms.TextBox txtB3Name;
         private System.Windows.Forms.Label B3;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.ComboBox cbB2Level;
+        private System.Windows.Forms.Label lblB2Level;
+        private System.Windows.Forms.Label lblB2Name;
+        private System.Windows.Forms.TextBox txtB2Name;
         private System.Windows.Forms.Label B2;
         private System.Windows.Forms.ComboBox cbB1Level;
         private System.Windows.Forms.Label lblB1Level;
         private System.Windows.Forms.Label lblB1Name;
         private System.Windows.Forms.TextBox txtB1Name;
         private System.Windows.Forms.Label B1;
+        private System.Windows.Forms.Label lblA1Grade;
+        private System.Windows.Forms.Label lblA2Grade;
+        private System.Windows.Forms.Label lblA3Grade;
+        private System.Windows.Forms.Label lblA4Grade;
+        private System.Windows.Forms.Label lblB1Grade;
+        private System.Windows.Forms.Label lblB2Grade;
+        private System.Windows.Forms.Label lblB3Grade;
+        private System.Windows.Forms.Label lblB4Grade;
+        private System.Windows.Forms.TextBox txtA1Grade;
+        private System.Windows.Forms.TextBox txtA2Grade;
+        private System.Windows.Forms.TextBox txtA3Grade;
+        private System.Windows.Forms.TextBox txtA4Grade;
+        private System.Windows.Forms.TextBox txtB1Grade;
+        private System.Windows.Forms.TextBox txtB2Grade;
+        private System.Windows.Forms.TextBox txtB3Grade;
+        private System.Windows.Forms.TextBox txtB4Grade;
     }
 }

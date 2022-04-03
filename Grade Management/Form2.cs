@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Diagnostics;
 
 namespace Grade_Management
 {
@@ -17,6 +12,24 @@ namespace Grade_Management
         {
             InitializeComponent();
             opener = parentForm;
+            string folder = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
+            string dir = folder + "/data";
+            if (Directory.Exists(dir))
+            {
+                Directory.SetCurrentDirectory(dir);
+            }
+            else
+            {
+                Directory.CreateDirectory(dir);
+                File.Create("A1.gmmm");
+                File.Create("A2.gmmm");
+                File.Create("A3.gmmm");
+                File.Create("A4.gmmm");
+                File.Create("B1.gmmm");
+                File.Create("B2.gmmm");
+                File.Create("B3.gmmm");
+                File.Create("B4.gmmm");
+            }
         }
 /*
         int SchoolName = 0;
