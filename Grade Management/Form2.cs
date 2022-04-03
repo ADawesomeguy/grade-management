@@ -12,9 +12,11 @@ namespace Grade_Management
 {
     public partial class InfoForm : Form
     {
-        public InfoForm()
+        Form opener;
+        public InfoForm(Form parentForm)
         {
             InitializeComponent();
+            opener = parentForm;
         }
     }
 }

@@ -19,7 +19,8 @@ namespace Grade_Management
 
         private void InfoInput_Click(object sender, EventArgs e)
         {
-
+            InfoForm frm = new InfoForm(this);
+            frm.Show();
         }
     }
 }
