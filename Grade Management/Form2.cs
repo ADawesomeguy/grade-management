@@ -18,5 +18,20 @@ namespace Grade_Management
             InitializeComponent();
             opener = parentForm;
         }
+/*
+        int SchoolName = 0;
+
+            try
+            {
+                if (SchoolSelectCBox.Text == "East Lyme High School")
+                {
+                    SchoolName = 1;
+                }
+            }
+            catch
+            {
+
+            }
+        */
     }
 }

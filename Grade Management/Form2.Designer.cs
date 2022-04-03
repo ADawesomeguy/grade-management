@@ -35,9 +35,10 @@
             // SchoolLabel
             // 
             this.SchoolLabel.AutoSize = true;
-            this.SchoolLabel.Location = new System.Drawing.Point(12, 9);
+            this.SchoolLabel.Location = new System.Drawing.Point(18, 14);
+            this.SchoolLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SchoolLabel.Name = "SchoolLabel";
-            this.SchoolLabel.Size = new System.Drawing.Size(77, 13);
+            this.SchoolLabel.Size = new System.Drawing.Size(115, 20);
             this.SchoolLabel.TabIndex = 0;
             this.SchoolLabel.Text = "Current School";
             // 
@@ -46,18 +47,21 @@
             this.SchoolSelectCBox.FormattingEnabled = true;
             this.SchoolSelectCBox.Items.AddRange(new object[] {
             "East Lyme High School"});
-            this.SchoolSelectCBox.Location = new System.Drawing.Point(95, 6);
+            this.SchoolSelectCBox.Location = new System.Drawing.Point(142, 9);
+            this.SchoolSelectCBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SchoolSelectCBox.Name = "SchoolSelectCBox";
-            this.SchoolSelectCBox.Size = new System.Drawing.Size(121, 21);
+            this.SchoolSelectCBox.Size = new System.Drawing.Size(237, 28);
             this.SchoolSelectCBox.TabIndex = 1;
+            this.SchoolSelectCBox.SelectedIndexChanged += new System.EventHandler(this.SchoolSelectCBox_SelectedIndexChanged);
             // 
             // InfoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(654, 322);
+            this.ClientSize = new System.Drawing.Size(981, 495);
             this.Controls.Add(this.SchoolSelectCBox);
             this.Controls.Add(this.SchoolLabel);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "InfoForm";
             this.Text = "Input Info";
             this.ResumeLayout(false);
