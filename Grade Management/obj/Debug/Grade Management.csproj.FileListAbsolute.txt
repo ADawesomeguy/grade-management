@@ -1,0 +1,6 @@
+C:\Users\tetrg\OneDrive\Documents\GitHub\grade-management\Grade Management\obj\Debug\Grade Management.csproj.AssemblyReference.cache
+C:\Users\tetrg\OneDrive\Documents\GitHub\grade-management\Grade Management\obj\Debug\Grade Management.csproj.SuggestedBindingRedirects.cache
+C:\Users\tetrg\OneDrive\Documents\GitHub\grade-management\Grade Management\obj\Debug\Grade_Management.Home.resources
+C:\Users\tetrg\OneDrive\Documents\GitHub\grade-management\Grade Management\obj\Debug\Grade_Management.Properties.Resources.resources
+C:\Users\tetrg\OneDrive\Documents\GitHub\grade-management\Grade Management\obj\Debug\Grade Management.csproj.GenerateResource.cache
+C:\Users\tetrg\OneDrive\Documents\GitHub\grade-management\Grade Management\obj\Debug\Grade Management.csproj.CoreCompileInputs.cache
