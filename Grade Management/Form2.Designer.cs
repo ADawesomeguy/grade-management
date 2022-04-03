@@ -52,7 +52,6 @@
             this.SchoolSelectCBox.Name = "SchoolSelectCBox";
             this.SchoolSelectCBox.Size = new System.Drawing.Size(237, 28);
             this.SchoolSelectCBox.TabIndex = 1;
-            this.SchoolSelectCBox.SelectedIndexChanged += new System.EventHandler(this.SchoolSelectCBox_SelectedIndexChanged);
             // 
             // InfoForm
             // 
