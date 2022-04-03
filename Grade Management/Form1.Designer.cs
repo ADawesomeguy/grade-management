@@ -1,6 +1,6 @@
 ﻿namespace Grade_Management
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.TitleLabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // TitleLabel
+            // 
+            this.TitleLabel.AutoSize = true;
+            this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.TitleLabel.Location = new System.Drawing.Point(11, 9);
+            this.TitleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.TitleLabel.Name = "TitleLabel";
+            this.TitleLabel.Size = new System.Drawing.Size(385, 26);
+            this.TitleLabel.TabIndex = 0;
+            this.TitleLabel.Text = "Eric Yang\'s Grade Management Portal";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(16, 98);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Input Info";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // Home
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(806, 441);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.TitleLabel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Home";
+            this.Text = "Home";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label TitleLabel;
+        private System.Windows.Forms.Button button1;
     }
 }
 
