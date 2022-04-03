@@ -16,18 +16,5 @@ namespace Grade_Management
         {
             InitializeComponent();
         }
-
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // Home
-            // 
-            this.ClientSize = new System.Drawing.Size(1199, 624);
-            this.MaximizeBox = false;
-            this.Name = "Home";
-            this.ResumeLayout(false);
-
-        }
     }
 }
